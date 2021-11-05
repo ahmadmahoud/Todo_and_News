@@ -14,7 +14,7 @@ import 'package:hexcolor/hexcolor.dart';
 import 'models/counter/cubit/bloc_observer.dart';
 
   Future<void> main () async {
-
+  //
   // التاكد من ان جميع الmethode تعمل وبعدها يقوم بفتح التطبيق
   WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = MyBlocObserver();
